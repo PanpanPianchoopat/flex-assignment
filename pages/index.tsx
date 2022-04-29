@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 const PRODUCTS = [
   {
-    image: '/assets/card/SuperStarBlue.png',
+    image: '/assets/card/Superstar.png',
     name: 'SUPERSTAR',
     price: 109.09
   },
