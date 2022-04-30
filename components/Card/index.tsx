@@ -16,7 +16,7 @@ const Card = ({image, name, price}: CardProps) => {
       </div>
       <div className={style.cardText}>
         <div className={style.productName}>{name}</div>
-        <div>$ {price}</div>
+        <div>$ {price.toFixed(2)}</div>
       </div>
     </div>
   )
