@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const BestSeller = () => {
   return (
-    <div id='flex-6' className={style.bestsellerContainer}>
-      <div id='flex-7' className={style.descriptionSection}>
+    <div id='flex-6' data-testid="flex-6" className={style.bestsellerContainer}>
+      <div id='flex-7' data-testid="flex-7" className={style.descriptionSection}>
         <h1>Best Seller</h1>
         <div className={style.description}>Deciding what to wear to express your mood? Do you feel sporty,
           casual, chic or sophisticated? Hey, stop overthinking it. Stan

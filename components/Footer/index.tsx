@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div id='flex-8' className={style.footerContainer}>
-      <div id='flex-9' className={style.small}>
+    <div id='flex-8' data-testid="flex-8" className={style.footerContainer}>
+      <div id='flex-9' data-testid="flex-9" className={style.small}>
         <div className={style.smallPic}>
           <Image src='/assets/footer/shoe.png' alt='' layout='fill' objectFit='cover' />  
         </div>
@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div id='flex-10' className={style.large}>
+      <div id='flex-10' data-testid="flex-10" className={style.large}>
         <Image src='/assets/footer/room.png' alt='' layout='fill' objectFit='cover' />
       </div>
     </div>

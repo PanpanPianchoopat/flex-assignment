@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <div id='flex-2' className={style.nav}>
-      <div id='flex-3' className={style.navItem}>
+    <div id='flex-2' data-testid="flex-2" className={style.nav}>
+      <div id='flex-3' data-testid="flex-3" className={style.navItem}>
         <Image src='/assets/icon/logo.png' alt='' width={48} height={48} />
         <div className={style.navMenu}>All</div>
         <div className={style.navMenu}>Originals</div>

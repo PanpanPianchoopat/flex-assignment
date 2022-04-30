@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Preview = () => {
   return (
-    <div id='flex-4' className={style.previewContainer}>
+    <div id='flex-4' data-testid="flex-4" className={style.previewContainer}>
       <div className={style.sides}>
         <Image src='/assets/preview/spray.png' alt='' layout='fill' objectFit='cover' />
       </div>

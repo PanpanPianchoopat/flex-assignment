@@ -63,14 +63,14 @@ const PRODUCTS = [
 
 const Home: NextPage = () => {
   return (
-    <div id='flex-1' className={styles.container}>
+    <div id='flex-1' data-testid="flex-1" className={styles.container}>
       <Navbar />
       <div className={styles.cover}>
         <Image src='/assets/cover.png' alt='' layout='fill' objectFit='cover' />
       </div>
       <Preview />
       <h1>Products</h1>
-      <div id='flex-5' className={styles.productContainer}>
+      <div id='flex-5' data-testid="flex-5" className={styles.productContainer}>
         {PRODUCTS.map(({ image, name, price }, index) => <Card key={index} image={image} name={name} price={price} />)}
       </div>
       <BestSeller />
